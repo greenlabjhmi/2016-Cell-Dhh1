@@ -1,7 +1,7 @@
 # 2016-Cell-Dhh1
 
 <p align="center">
-  <img src = "https://github.com/greenlabjhmi/2016-Cell-Dhh1/Abstract.png" />
+  <img src = "https://github.com/greenlabjhmi/2016-Cell-Dhh1/blob/master/Abstract.png?raw=true" />
 </p>
 
 Analysis scripts related to the processing and visualization of the data in "The DEAD-box helicase Dhh1p couples mRNA decay and translation by monitoring codon optimality." Raw data from this project is available at [the following page on the GEO Archive](http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE81269)
