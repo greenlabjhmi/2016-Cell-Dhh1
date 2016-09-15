@@ -1,0 +1,48 @@
+# Start: 2
+# Stop:  6
+# 
+# \\ 1 - Download the data
+# \\ 2 - Perform adapter trimming on downloaded FASTQ files
+# \\ 3 - Perform quality filtering on trimmed FASTQ files
+# \\ 4 - Remove sequences that align to non-coding RNAs from the filtered FASTQ files
+# \\ 5 - Align sequences to the genome from the ncRNA subtracted FASTQ files
+# \\ 6 - Create WIG files from the genome aligned SAM file
+#
+# Clean: gzip
+# 
+# \\ gzip - Gzip files after they are no longer necessary
+# \\ rm   - Remove files after they are no longer necessary
+#
+# Quality: 0.99
+#
+# \\ Quality filter threshold for retaining reads (0.0 - 1.0). Higher is more selective.
+#
+# Mapping: 5
+#
+# \\ 5 - Map reads according to their 5' end
+# \\ 3 - Map reads according to their 3' end
+# \\ c - Map reads across their entirety
+#
+# Lengths: 28
+#
+# \\ 28  - Only map 28-nt long reads
+# \\ All - Map all read lengths 
+
+SRR3493886	IWTP
+SRR3493888	IWTR
+SRR3493887	RWTP
+SRR3493889	RWTR
+SRR3493890	IKOP
+SRR3493891	RKOP
+SRR3493892	IKOR
+SRR3493893	RKOR
+SRR3493894	IOEP
+SRR3493895	ROEP
+SRR3493896	IOER
+SRR3493897	ROER
+SRR3493898	DQADP
+SRR3493899	DQADR
+SRR3493900	TPP
+SRR3493901	TPR
+SRR3493902	TNP
+SRR3493903	TNR
