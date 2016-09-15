@@ -8,7 +8,7 @@ Analysis scripts related to the processing and visualization of the data in "The
 
 In this project are four main files:
 * Pipeline.py: A script used to download raw FASTQ files and process and convert them into WIG files using the settings outlined in the paper
-* Param.in: A list of parameters parsed by Pipeline.py to determine what the settings for data downloading and processing shoudl be.
+* Param.in: A list of parameters parsed by Pipeline.py to determine what the settings for data downloading and processing should be.
 * DataGen.py: A script used to extract information from the generated WIG files into processed data tables
 * Plot.R: A script used to generate the figures in the paper
 
